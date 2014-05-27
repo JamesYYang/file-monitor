@@ -37,3 +37,9 @@ filewatch.watchDirectory("./testFolder", options, function(err, f, c, p, data) {
 The options object has two options:
 * `tryParseJson` : When true means it will try to use `JSON.parse()` to parse file content and return the object in callback.
 * `filter` : You can use this option to provide a function that returns true or false to decide whether add this file to monitor.
+
+## License
+
+(The MIT License)
+
+Copyright (c) 2014 James Yang
